@@ -37,3 +37,20 @@
 .active > svg {
     fill: #7076f4;
 }
+
+@media (width <= 425px){
+    .step svg {
+        font-size: 1rem;
+    }
+
+    .steps {
+        gap: 3rem
+    }
+
+    .steps::after {
+        content: "";
+        width: 280px;
+    }
+
+
+}
