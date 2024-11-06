@@ -78,7 +78,7 @@
     }
 
     .steps {
-        gap: .9rem
+        gap: .6rem
     }
 
     .steps::after {
@@ -87,7 +87,7 @@
     }
 
     .steps p{
-        font-size: .8rem;
+        font-size: .5rem;
     }
 
 }
