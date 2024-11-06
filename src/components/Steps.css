@@ -38,18 +38,21 @@
     fill: #7076f4;
 }
 
-@media (width <= 425px){
+@media (width <= 450px){
     .step svg {
         font-size: 1rem;
     }
 
     .steps {
-        gap: 3rem
+        gap: 2.2rem
     }
 
     .steps::after {
         content: "";
         width: 280px;
+    }
+    .steps p{
+        font-size: .9rem;
     }
 }
 
@@ -59,12 +62,12 @@
     }
 
     .steps {
-        gap: 2rem
+        gap: 1.2rem
     }
 
     .steps::after {
         content: "";
-        width: 280px;
+        width: 220px;
     }
 
     .steps p{
@@ -72,7 +75,7 @@
     }
 }
 
-@media (width <= 320px){
+@media (width <= 325px){
     .step svg {
         font-size: 1rem;
     }
