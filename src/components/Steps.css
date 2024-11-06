@@ -51,6 +51,23 @@
         content: "";
         width: 280px;
     }
+}
 
+@media (width <= 375px){
+    .step svg {
+        font-size: 1rem;
+    }
 
+    .steps {
+        gap: 2rem
+    }
+
+    .steps::after {
+        content: "";
+        width: 280px;
+    }
+
+    .steps p{
+        font-size: .9rem;
+    }
 }
