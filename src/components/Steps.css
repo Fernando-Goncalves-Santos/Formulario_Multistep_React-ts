@@ -71,3 +71,23 @@
         font-size: .9rem;
     }
 }
+
+@media (width <= 320px){
+    .step svg {
+        font-size: 1rem;
+    }
+
+    .steps {
+        gap: .9rem
+    }
+
+    .steps::after {
+        content: "";
+        width: 180px;
+    }
+
+    .steps p{
+        font-size: .8rem;
+    }
+
+}

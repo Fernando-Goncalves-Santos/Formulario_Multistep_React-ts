@@ -36,3 +36,15 @@
     font-size: .7rem;
     margin-top: .4rem;
 }
+
+@media (width <= 320px) {
+    .radio-container svg {
+        font-size: 1rem;
+    }
+
+    .form-control.score-container {
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: center;
+    }
+}
